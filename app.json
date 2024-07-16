@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Rapid Crash Detection",
+    "slug": "rapidcrashdetection",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D0F37"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.rapidcrashdetection.app"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "867f0916-3d30-4907-826c-2154c1ef2024"
+      }
+    },
+    "owner": "abdulmoeezkhan1122",
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
